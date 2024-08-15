@@ -12,7 +12,7 @@ unzip awscliv2.zip
 
 sudo ./aws/install
 
-
+aws --version (check)
 
 II . ((Install Terraform - 6))
 
