@@ -1,4 +1,18 @@
+take an ec2
+
 I . ((Install AWS CLI))
+
+(Install unzip - 1 and AWS CLI - 3)
+
+sudo apt install unzip
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+
 
 II . ((Install Terraform - 6))
 
@@ -24,4 +38,5 @@ terraform -help (check)
 
 III. ((AWS Configure - provide access keys))
 
+aws iam list-users (check)
 
