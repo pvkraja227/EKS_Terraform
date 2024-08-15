@@ -40,3 +40,25 @@ III. ((AWS Configure - provide access keys))
 
 aws iam list-users (check)
 
+IV. ((Execute))
+
+git clone https://github.com/pvkraja227/EKS_Terraform.git
+
+terraform init
+
+terraform plan
+
+terraform apply --auto-approve (takes 15 min) - check all tabs - compute/nodegroups - 2 desired, but could not see the nodes
+
+eks/cluster/name/access/create access entry/IAM Principal ARN/arn:aws:iam:7869..:root/next/access policy/amazoneksclusteradminpolicy/add policy/next/create
+
+cluster/name/compute/nodes - 2 (t3.med)
+
+ec2: aws eks update-kubeconfig --name xxxxx --region yyyyy (kubectl is configured)
+
+kubectl get nodes
+
+terraform destroy
+
+
+
